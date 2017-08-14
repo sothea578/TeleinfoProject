@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TeleinfoProject</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag  "application", "agency", "agency.min", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "agency", "agency.min", "contact_me", "jqBootstrapValidation", "data-turbolinks-track": "reload" %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
